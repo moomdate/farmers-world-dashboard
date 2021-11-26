@@ -3,6 +3,8 @@
 ## Farmers world dashboard using Google sheet
 ![Summery](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/summary.png)
 
+# Donation wax address: `szpza.wam`
+
 
 ## How to setup
 - Create new google sheet [link](https://docs.google.com/spreadsheets/u/0/)
@@ -32,4 +34,3 @@ how to set trigger
 change wax address
 ![Change account address](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/change-address.png)
 
-# Donation wax address: `szpza.wam`
