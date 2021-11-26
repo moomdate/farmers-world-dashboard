@@ -21,7 +21,7 @@
 
 ### * don't forget change wax address at Spreadsheet
 ### * If work, after you refresh the page should you will see `loading...` in left top of sheet
-### * not ye support Membership
+### * not yet support Membership
 paste script
 ![paste script](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/paste-script.png)
 
