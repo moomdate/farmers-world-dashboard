@@ -20,9 +20,16 @@
 ### * don't forget change wax address at Spreadsheet
 ### * If work, after you refresh the page should you will see `loading...` in left top of sheet
 
+paste script
 ![paste script](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/paste-script.png)
+
+trigger menu
 ![trigger menu](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/apps-script-menu.png)
+
+how to set trigger
 ![trigger](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/trigger.png)
+
+change wax address
 ![Change account address](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/change-address.png)
 
 # Donation wax address: `szpza.wam`
