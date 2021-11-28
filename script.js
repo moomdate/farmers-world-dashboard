@@ -136,47 +136,6 @@ function status() {
   getTokenBalance();
   sheet.getRange(3, 1).setValue([null]);
 }
-function getMiningCheck() {
-  var sheet = getMiningLogSheet_();
-  var columnToCheck = sheet.getRange("A:A").getValues();
-  var lastRow = getLastRowSpecial_(columnToCheck);
-  const lastRow1 = sheet.getRange(lastRow, 2).getValue();
-  const lastRow2 = sheet.getRange(lastRow - 1, 2).getValue();
-  const lastRow3 = sheet.getRange(lastRow - 2, 2).getValue();
-  // Logger.log(`${lastRow1}, ${lastRow2}, ${lastRow3}`);
-
-  // var timeZone = Session.getScriptTimeZone();
-  const lastTimeSheet = sheet.getRange(2, 9);
-  const sendDate = lastTimeSheet.getValue();
-  const nextTime = new Date(
-    new Date(sendDate).getTime() + 1000 * 60 * 60 * 0.5
-  );
-
-  if (+lastRow1 == lastRow2 && lastRow2 == lastRow3) {
-    sheet.getRange(1, 9).setValue(["หยุดทำงาน"]).setBackground("#f06156");
-    if (nextTime.valueOf() >= new Date().valueOf()) {
-      Logger.log("return");
-      return;
-    }
-    Logger.log("work");
-    sendEmails_();
-    lastTimeSheet.setValue([getTimeStamp_()]);
-  } else {
-    sheet.getRange(1, 9).setValue(["ทำงาน"]).setBackground("#068f4a");
-  }
-}
-function sendEmails_() {
-  MailApp.sendEmail(
-    "moomdate@gmail.com",
-    "บอทหยุดทำงาน !!!",
-    `บอทหยุดทำงาน Time:${getTimeStamp_()}`
-  );
-  MailApp.sendEmail(
-    "pondsamadn01@gmail.com",
-    "บอทหยุดทำงาน !!!",
-    `บอทหยุดทำงาน Time:${getTimeStamp_()}`
-  );
-}
 function loadAacorMarket() {
   const url = "https://wax.alcor.exchange/api/markets";
   const response = UrlFetchApp.fetch(url);
