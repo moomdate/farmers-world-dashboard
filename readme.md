@@ -3,6 +3,8 @@
 ## Farmers world dashboard using Google sheet
 ![Summery](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/summary.png)
 
+![Tools](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/tools.png)
+
 # Donation wax address: `szpza.wam`
 
 
@@ -14,8 +16,6 @@
 - Set triggers -> Click at left side menu and add Trigger
 - Set trigger to `status` function and Event to `Form Spreadsheet`
 - And then save
-
-
 
 
 
