@@ -8,7 +8,7 @@
 # Donation wax address: `szpza.wam`
 
 
-## How to setup
+## How to setup 
 - Create new google sheet [link](https://docs.google.com/spreadsheets/u/0/)
 - Import template (`dashboard-template.xlsx`) to your sheet
 - Go to menu `extension` -> `Apps Script`
@@ -18,12 +18,16 @@
 - Set trigger to `status` function and Event to `Form Spreadsheet`
 - And then save
 
+# Video Here 👇
 [![How to setup](http://img.youtube.com/vi/WeK8OyFfN_s/0.jpg)](http://www.youtube.com/watch?v=WeK8OyFfN_s "How to setup")
 
 ### * don't forget change wax address at Spreadsheet
 ### * If work, after you refresh the page should you will see `loading...` in left top of sheet
 ### * not yet support Membership
 ### * Does not change sheet name
+
+
+
 paste script
 ![paste script](https://github.com/moomdate/farmers-world-dashboard/blob/master/img/paste-script.png)
 
